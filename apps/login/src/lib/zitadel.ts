@@ -67,6 +67,7 @@ export async function getHostedLoginTranslation({
               value: true,
             },
         locale: locale,
+        ignoreInheritance: false,
       },
       {},
     )
